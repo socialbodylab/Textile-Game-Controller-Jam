@@ -37,7 +37,6 @@ void loop() {
     Serial.println("Pin 0 is activated!");
     
     for (int i = 0 ; i < 10; i++) { // loop through all of the lights and turn them on
-      Serial.println(i);
       CircuitPlayground.setPixelColor(i, 255, 0, 200); // pink colour
     }
 
