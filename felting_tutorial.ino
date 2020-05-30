@@ -36,12 +36,10 @@ void loop() {
     Serial.println("Pin 6 activated - bottom of the cone");
     
     for (int i = 0 ; i < 10; i++) {// loop through all of the LEDs and turn them on
-      Serial.println(i);
       CircuitPlayground.setPixelColor(i, 0, 75, 255); // light blue colour
     }
 
   } else { // if pin 6 is not activated turn off all of the LEDS
-
     CircuitPlayground.clearPixels();
   }
 
@@ -49,14 +47,11 @@ void loop() {
     Serial.println("Pin 9 activated - top of the cone");
     
     for (int i = 0 ; i < 10; i++) { // loop through all of the LEDs and turn them on
-      Serial.println(i);
       CircuitPlayground.setPixelColor(i, 255, 0, 200); // light pink 
     }
 
   } else { // if not turn off all of the LEDS
-
     CircuitPlayground.clearPixels();
   }
-
 
 }
