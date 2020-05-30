@@ -31,11 +31,9 @@ void loop() {
 
   if (buttonVal == LOW) { // if the digital switch is activated
     for (int i = 0 ; i < 10; i++) { // loop through all of the LED lights on the Circuit Playground and light them up.
-      Serial.println(i);
       CircuitPlayground.setPixelColor(i, 255, 0, 200); // Aqua colour
     }
   } else { // if the digital switch is not activated, turn the LED lights off. 
     CircuitPlayground.clearPixels();
-
   }
 }
