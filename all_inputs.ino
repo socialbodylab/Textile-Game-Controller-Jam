@@ -8,6 +8,8 @@ The code contains 2 digital switches, 4 capactive touch buttons, and 1 analog se
 
    This is a small sample to run in the browser to see if your keys are working
    https://editor.p5js.org/2sman/sketches/rkGp1alib
+   
+   Follow along on this video here: https://youtu.be/AXbMM8rbhq8
 
    Arduino Example code:
    https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardwrite/
@@ -113,8 +115,8 @@ void loop() {
   }
 
   if (A_buttonVal == LOW) { // if the A Button is pressed 
+    Serial.println("A Button Touched!"); // Print Message.
     for (int i = 0 ; i < 10; i++) { // loop through all of the leds
-      Serial.println("A Button Touched!"); // Print Message.
       CircuitPlayground.setPixelColor(i, 0, 255, 0); // and turn them on to green
     }
   } else {
