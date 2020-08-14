@@ -52,7 +52,7 @@ Follow along on the video tutorial ["How to Make an E-Textile Digital Switch"](h
 
 [Sample Code for Digital Switch](/digital_switch_tutorial.ino)
 
-The code contains 1 digital switch which lights up the LED ring when activated. 
+The code contains 1 digital switch which lights up the LED ring when activated. This sample uses conductive fabric & thread. **Pins 1 & GND** are used in this code. 
 
 ### Circuit Diagram
 ![Circuit Diagram for Digital Switch](/read-me-assets/digital-switch-diagram.png)
@@ -66,6 +66,8 @@ Follow along on the video tutorial ["How to Make an E-Textile Analog Sensor"](ht
 [Sample Code for Analog Sensor](/analog_sensor_tutorial.ino)
 
 The code contains 1 analog sensor. The amount of lights that turn on is related to the reading of the pressure sensor. If high force is applied onto the sensor, the most of the lights will turn on. If light pressure is applied, only a few will turn on. 
+
+This sample uses velostat, conductive fabric, conductive thread, 10K ohm resistor, and felt. This code uses Physical **Pins 12, GND, & 3.3V** 
   
 ![Circuit Diagram for Analog Sensor](/read-me-assets/analog-sensor-diagram.png)
 
@@ -77,7 +79,7 @@ Follow along on the video tutorial ["How to Make an Capacitive Sensor Using E-Te
 
 [Sample Code for Capactive Touch with Fabric](/capacitive_touch_tutorial.ino)
 
-The code contains 1 capacitive sensor which lights up when touched. 
+The code contains 1 capacitive sensor which lights up when touched. A piece of conductive fabric is connected to **pin 0** using conductive thread. 
 
 ![Circuit Diagram for Capactive Sensing](/read-me-assets/capacitive-sensing-diagram.png)
 
@@ -89,7 +91,9 @@ Follow along on the video tutorial ["How to Felt an E-Textile Capacitve Sensor"]
 
 [Sample Code for Capactive Touch with Felting](/felting_tutorial.ino)
 
-The code contains 2 capactive touch sensors. 
+The code contains 2 capactive touch sensors. Conductive thread & conductive felt are used to connect to capactive touch sensing **pin 9** (the felted top of the ice cream cone) & **pin 6** (the felted cone bottom).
+
+
 ![Circuit Diagram for Capactive Sensing](/read-me-assets/capactive-diagram-felt.png)
 
 
@@ -101,9 +105,10 @@ Follow along on the video tutorial  ["How to Embroider an E-Textile Capacitve Se
 
 [Sample Code for Capactive Touch with Embroidery](/embroidery_tutorial.ino)
 
-The code contains 2 capactive touch sensors. 
+The code contains 2 capactive touch sensors. Conductive thread is used to connect to capactive touch sensing **pin 2** (the embroidered lightbulb) & **pin 9** (the embroidered LED).
 
 ![Circuit Diagram for Capactive Sensing](/read-me-assets/capactive-diagram-em.png)
+
 
 
 
