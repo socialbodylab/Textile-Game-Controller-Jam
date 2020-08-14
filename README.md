@@ -90,7 +90,7 @@ Follow along on the video tutorial ["How to Felt an E-Textile Capacitve Sensor"]
 [Sample Code for Capactive Touch with Felting](/felting_tutorial.ino)
 
 The code contains 2 capactive touch sensors. 
-![Circuit Diagram for Capactive Sensing](/read-me-assets/capacitive-diagram-felt.png)
+![Circuit Diagram for Capactive Sensing](/read-me-assets/capactive-diagram-felt.png)
 
 
 <a name="capactive-em"/>
@@ -103,7 +103,7 @@ Follow along on the video tutorial  ["How to Embroider an E-Textile Capacitve Se
 
 The code contains 2 capactive touch sensors. 
 
-![Circuit Diagram for Capactive Sensing](/read-me-assets/capacitive-diagram-em.png)
+![Circuit Diagram for Capactive Sensing](/read-me-assets/capactive-diagram-em.png)
 
 
 
