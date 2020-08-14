@@ -96,6 +96,9 @@ The code contains 2 capactive touch sensors. Conductive thread & conductive felt
 
 ![Circuit Diagram for Capactive Sensing](/read-me-assets/capactive-diagram-felt.png)
 
+An felted circuit used conductive thread & conductive felt to connect the sensor to the capactive pin.
+
+
 
 <a name="capactive-em"/>
 
@@ -108,6 +111,8 @@ Follow along on the video tutorial  ["How to Embroider an E-Textile Capacitve Se
 The code contains 2 capactive touch sensors. Conductive thread is used to connect to capactive touch sensing **pin 2** (the embroidered lightbulb) & **pin 9** (the embroidered LED).
 
 ![Circuit Diagram for Capactive Sensing](/read-me-assets/capactive-diagram-em.png)
+
+An embroidered circuit used conductive thread to connect the sensor to the capactive pin.
 
 
 
