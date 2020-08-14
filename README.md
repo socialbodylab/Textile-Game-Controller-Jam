@@ -1,6 +1,6 @@
 # Textile-Game-Controller-Jam
 
-## Overivew
+## Overview
 These sample codes were written for the [Textile Game Controller Jam](http://socialbodylab.com/textile-game-controllers-jam/).
 
 These samples provide basic input for *digital switches*, *analog sensors*, and *capactive sensing*. 
@@ -61,7 +61,7 @@ The code contains 1 digital switch which lights up the LED ring when activated.
 
 ## Analog Sensor
 
-Follows along on the video tutorial ["How to Make an E-Textile Analog Sensor"](https://youtu.be/tA37mGEnPes)
+Follow along on the video tutorial ["How to Make an E-Textile Analog Sensor"](https://youtu.be/tA37mGEnPes)
 
 [Sample Code for Analog Sensor](/analog_sensor_tutorial.ino)
 
@@ -73,10 +73,11 @@ The code contains 1 analog sensor. The amount of lights that turn on is related 
 
 ## Capactive Sensing - Conductive Fabric
 
-This is code follows along the "How to Make an Capacitive Sensor Using E-Textile Materials" here: https://youtu.be/kTfoMyjtgws 
+Follow along on the video tutorial ["How to Make an Capacitive Sensor Using E-Textile Materials"]( https://youtu.be/kTfoMyjtgws)
 
 [Sample Code for Capactive Touch with Fabric](/capacitive_touch_tutorial.ino)
 
+The code contains 1 capacitive sensor which lights up when touched. 
 
 ![Circuit Diagram for Capactive Sensing](/read-me-assets/capacitive-sensing-diagram.png)
 
@@ -84,11 +85,20 @@ This is code follows along the "How to Make an Capacitive Sensor Using E-Textile
 
 ## Capactive Sensing - Felting
 
+Follow along on the video tutorial ["How to Felt an E-Textile Capacitve Sensor"](https://youtu.be/NowvCFEpItk)  
+
 [Sample Code for Capactive Touch with Felting](/felting_tutorial.ino)
+
+The code contains 2 capactive touch sensors. 
 
 <a name="capactive-em"/>
 
 ## Capactive Sensing - Embroidery
 
+Follow along on the video tutorial  ["How to Embroider an E-Textile Capacitve Sensor"](https://youtu.be/lxuEnd14fhU)  
+
 [Sample Code for Capactive Touch with Embroidery](/embroidery_tutorial.ino)
+
+The code contains 2 capactive touch sensors. 
+
 
